@@ -1,26 +1,46 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navbar from './Navbar';
+import About from './About/About';
+import Awards from './Awards/Awards';
+import Projects from './Projects';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+import Interests from './Interests/Interests';
+import Websites from './Websites';
+import Conclusion from './Conclusion';
+
+class App extends React.Component{
+  render(){
+    return (
+      <div>
+        <Navbar/> 
+        <div id='about'>
+        <About/>
+        </div>
+        
+        <div id='interests'>
+        <Interests/>
+        </div>
+
+        <div id='awards'>
+        <Awards/>
+        </div>
+
+        <div id='projects'>
+        <Projects/>
+        </div>
+        <div id='websites'>
+        <Websites/>
+        </div>
+        
+        <Conclusion/>
+      
+      
+       
+      </div>
+    );
+  }
+  
 }
 
 export default App;

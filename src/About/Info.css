@@ -1,0 +1,39 @@
+.info-overall-div{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-image: linear-gradient(315deg, #121212 0%, #343434 74%);
+    background-size:cover;
+    color:#ffffff;
+
+}
+
+.info-image-container{
+    flex:50%;
+    
+}
+
+.info-image{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    max-width:420px;
+    text-align:center;
+    margin:0 auto;
+}
+.info-text-container{
+    flex:50%;
+    margin:20px;
+}
+.info-text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width:100%;
+}
+
+.info-img{
+    max-width:100%;
+    display:block;
+    border: 5px solid #ddd;
+    border-radius: 12px;
+}

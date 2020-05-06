@@ -1,0 +1,122 @@
+.hobbies-overall-div{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:#777777;
+    color:#ffffff
+}
+
+
+.container-1{
+    flex:47.5%;
+}
+
+.container-2{
+    flex:47.5%;
+}
+
+.divider{
+    height:50px;
+}
+
+.divider-1{
+    flex:2.5%;
+    border-right: 1px solid #ffffff;
+}
+.divider-2{
+    flex:2.5%;
+}
+
+table.repertoire-table{
+    color:#F3F7FD;
+}
+table.repertoire-table> thead>tr{
+    background-color:#1d1d1d;
+}
+
+table.repertoire-table> tbody>tr:nth-child(1){
+    background-color:#3f3f3f;
+}
+table.repertoire-table> tbody>tr:nth-child(2){
+    background-color:#444444;
+}
+table.repertoire-table> tbody>tr:nth-child(3){
+    background-color:#5d5d5d;
+}
+table.repertoire-table> tbody>tr:nth-child(4){
+    background-color:#747474;
+}
+table.repertoire-table> tbody>tr:nth-child(5){
+    background-color:#7e7e7e;
+}
+table.repertoire-table> tbody>tr:nth-child(6){
+    background-color:#818181;
+}
+table.repertoire-table> tbody>tr:nth-child(7){
+    background-color:#848484;
+}
+table.repertoire-table> tbody>tr:nth-child(8){
+    background-color:#999999;
+}
+table.repertoire-table> tbody>tr:nth-child(9){
+    background-color:#aeaeae;
+}
+table.repertoire-table> tbody>tr:nth-child(10){
+    background-color:#bfbfbf;
+}
+
+
+
+
+
+table.books-table{
+    color:#121212;
+}
+table.books-table> thead>tr{
+    background-color:rgba(3, 169, 244, 0.7);
+}
+
+table.books-table> tbody>tr:nth-child(1){
+    background-color:
+    rgba(244, 67, 54, 0.7);
+}
+table.books-table> tbody>tr:nth-child(2){
+    background-color:rgba(233, 30, 99, 0.7);
+}
+table.books-table> tbody>tr:nth-child(3){
+    background-color:rgba(156, 39, 176, 0.7);
+}
+table.books-table> tbody>tr:nth-child(4){
+    background-color:rgba(63, 81, 181, 0.7);
+}
+table.books-table> tbody>tr:nth-child(5){
+    background-color:rgba(0, 188, 212, 0.7);
+}
+table.books-table> tbody>tr:nth-child(6){
+    background-color:rgba(0, 150, 136, 0.7);
+}
+table.books-table> tbody>tr:nth-child(7){
+    background-color:rgba(76, 175, 80, 0.7);
+}
+table.books-table> tbody>tr:nth-child(8){
+    background-color:rgba(205, 220, 57, 0.7);
+}
+table.books-table> tbody>tr:nth-child(9){
+    background-color:rgba(255, 235, 59, 0.7);
+}
+table.books-table> tbody>tr:nth-child(10){
+    background-color:rgba(255, 152, 0, 0.7);
+}
+
+
+table td{
+    font-size:1em;
+}
+
+table th{
+    font-size:1em;
+    font-weight:900;
+}
+table.table th, table.table td {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}

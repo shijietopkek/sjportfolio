@@ -1,0 +1,50 @@
+.project-img{
+    width:100%;
+}
+
+.project-description{
+    opacity:0;
+    color:#fff;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;    
+}
+.hover-background{
+    opacity:0;
+    position:absolute;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    background-color:#121212;
+    
+}
+.project-div:hover .hover-background{
+    opacity:0.8;
+
+} 
+.project-div:hover .project-description{
+    opacity:1;
+
+} 
+
+hr{
+    background-color:#ffffff;
+    border-color:#ffffff;
+}
+.project-divs{
+    max-width:960px;
+    margin:0 auto;
+}
+.projects-overall-div{
+    padding-top:50px;
+    padding-bottom:50px;
+    background-color:#222222;
+    color:#ffffff;
+}
+
+.navbar--hidden{
+    top:-50%;
+}

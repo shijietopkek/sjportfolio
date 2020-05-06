@@ -1,0 +1,46 @@
+.website-div{
+  flex:33.33333%;
+  margin:15px;
+  position:relative;
+}
+
+.website-img{
+  width:100%;
+}
+.website-divs{
+  max-width:450px;
+  margin:0 auto;
+}
+.website-hover-div{
+  opacity:0;
+  position:absolute;
+  border:5px solid #696969;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  border-radius:50%;
+  background-color:#121212;
+}
+.website-text{
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  left:5px;
+  right:5px;
+}
+.website-text> p{
+  color:#ffffff;
+  font-size:1em;
+  margin-bottom:0 !important;
+  font-weight:900 !important;
+}
+.website-div:hover .website-hover-div{
+  opacity:0.8;
+}
+
+.website-overall-div{
+  padding-top:50px;
+  padding-bottom:50px;
+  background-color:	#D3D3D3;
+}

@@ -1,0 +1,80 @@
+.subjects-overall-div{
+  padding-top:50px;
+  padding-bottom:50px;
+  color:#ffffff;
+  background-image:url(https://i.dlpng.com/static/png/6794368_preview.png);
+  
+}
+
+
+
+
+.subject-text{
+    
+    font-size:1.5em;
+    text-align:center;
+    color:#fff;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    left:15px;
+    right:15px;
+}
+.grade-text{
+    opacity:0;
+    font-size:5em;
+    font-weight:900;
+    text-align:center;
+    color:#fff;
+    position:absolute;
+    top:50%;
+    transform:translateY(-50%);
+    left:15px;
+    right:15px;
+}
+.main-div:hover .subject-text{
+    opacity:0;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.main-div:hover .grade-text{
+    opacity:1;
+    transition:1s ease;
+}
+
+/*   
+  .shade-div {
+    opacity: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    background-color:#121212;
+    backface-visibility: hidden;
+  }
+  
+#divbutton{
+    transition: .5s ease !important;
+    opacity: 1;
+    height:100%;
+    width:100%;
+    margin:0 !important;
+    font-size:1.5em !important;
+    font-weight:900 !important;
+  }
+  
+  .main-div:hover .shade-div {
+    opacity: 0.8;
+  } */
+  
+  /* .container:hover .middle {
+    opacity: 1;
+  }
+  
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  } */
