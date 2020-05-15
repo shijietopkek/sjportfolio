@@ -26,3 +26,47 @@ h1,h2,h3,h4,h5,h6,p,th,td,span{
 .black-text{
   color:#000000;
 }
+.show-on-mobile{
+  display:none;
+}
+
+@media only screen and (max-width: 720px){
+  h1{
+    font-size: 1.5em;
+  }
+  h2{
+    font-size: 1.2em;
+  }
+  h3{
+    font-size: 1.1em;
+  }
+
+
+  .hide-on-mobile{
+    display:none;
+  }
+  .show-on-mobile{
+    display:block;
+  }
+  .remove-flex-on-mobile{
+    display:inline-block;
+  }
+  .awards-modal{
+    margin:0 auto;
+    min-width:90vw;
+    max-width:90vw;
+  }
+
+  .info-image{
+    width:90%;
+  }
+
+  .info-text-container{
+    margin-top:50px;
+  }
+  
+  .intro-text{
+    font-size: 1.3em !important;
+  }
+
+}

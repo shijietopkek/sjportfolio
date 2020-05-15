@@ -10,7 +10,7 @@ class Projects extends React.Component{
                 <div class='text-center'><h1>My Projects</h1></div>
                 <br/>
                 <div className='row project-divs'>
-                    <div className='project-div col-sm'>
+                    <div className='project-div col-md-6'>
                         <img className='project-img' src='https://i.imgur.com/JQ85hnz.jpg' alt='SocialShield'/>
                         <div className='hover-background'></div>
                         <div className='project-description'>
@@ -18,12 +18,12 @@ class Projects extends React.Component{
                                 <h3>SocialShield</h3>
                                 <hr/>
                                 <p>SocialShield is a Chrome extension which protects minors and other vulnerable users from harmful and vulgar content on social media platforms.</p>
-                                <p>It harnesses Natural Language Processing, Tone Analysis and other machine learning technologies to determine and filter out malicious content and their respective user profiles.</p>
+                                <p className='hide-on-mobile'>It harnesses Natural Language Processing, Tone Analysis and other machine learning technologies to determine and filter out malicious content and their respective user profiles.</p>
                                 <a target='_blank' href='https://chrome.google.com/webstore/detail/socialshield/fkiekmmeinddmjcgnoegicnfjccipiml?hl=en'className='btn btn-outline-light btn-lg'>Link to App</a>
                             </div>
                         </div>
                     </div>
-                    <div className='project-div col-sm'>
+                    <div className='project-div col-md-6'>
                         <img className='project-img' src='https://i.imgur.com/peY2Xny.jpg' alt='Opus'/>
                         <div className='hover-background'></div>
                         <div className='project-description'>
@@ -31,8 +31,21 @@ class Projects extends React.Component{
                                 <h3>Opus</h3>
                                 <hr/>
                                 <p>Opus is a web application built on Rails where users can read, post and comment on each other's essays.</p>
-                                <p>The core tenet of Opus is to foster creativity and encourage users (especially students) to practice their writing skills.</p>
+                                <p className='hide-on-mobile'>The core tenet of Opus is to foster creativity and encourage users (especially students) to practice their writing skills.</p>
                                 <a target='_blank' href='https://opusweb.herokuapp.com/' className='btn btn-outline-light btn-lg'>Link to Website</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div className='project-div col-md-6'>
+                        <img className='project-img' src='https://i.imgur.com/C4vlVN9.jpg' alt='PomodoroTimer'/>
+                        <div className='hover-background'></div>
+                        <div className='project-description'>
+                            <div className='add-margin'>
+                                <h3>PomodoroTimer</h3>
+                                <hr/>
+                                <p>PomodoroTimer is an Android application built in React Native. It utilises the Pomodoro technique to boost productivity and includes background music playback option.</p>
+                                <p className='hide-on-mobile'>The impetus behind the development of the app is to cater to my own needs and practice my React Native skills in the process.</p>
+                                <a target='_blank' href='https://drive.google.com/open?id=1_ReJ6brfCwT5u61Quzg76aTBNh6prdO3' className='btn btn-outline-light btn-lg'>Link to APK</a>
                             </div>
                         </div>
                     </div>

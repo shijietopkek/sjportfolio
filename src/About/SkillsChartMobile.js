@@ -9,18 +9,18 @@ import R from '../../src/assets/img/logos/R_logo_vector.png'
 import TABLEAU from '../../src/assets/img/logos/Tableau_Logo_Vector.png'
 
 
-class SkillsChart extends React.Component{
+class SkillsChartMobile extends React.Component{
     
 
     constructor(props){
-        const cssPoint = new Image(50,60)
-        const htmlPoint = new Image(50,60)
-        const jsPoint = new Image(50,60)
-        const excelPoint = new Image(50,50)
-        const pythonPoint = new Image(50,50)
-        const rPoint = new Image(60,50)
-        const tableauPoint = new Image(50,50)
-        const railsPoint = new Image(50,50)
+        const cssPoint = new Image(30,36)
+        const htmlPoint = new Image(30,36)
+        const jsPoint = new Image(30,36)
+        const excelPoint = new Image(30,30)
+        const pythonPoint = new Image(30,30)
+        const rPoint = new Image(36,30)
+        const tableauPoint = new Image(30,30)
+        const railsPoint = new Image(30,30)
         cssPoint.src = CSS
         htmlPoint.src = HTML
         jsPoint.src = JS
@@ -69,6 +69,8 @@ class SkillsChart extends React.Component{
 
             },
             chartOptions:{
+                responsive: true,
+                maintainAspectRatio: false, 
                 legend:{
                     display:false
                 },
@@ -79,7 +81,7 @@ class SkillsChart extends React.Component{
                         },
                         scaleLabel: {
                             display: true,
-                            fontSize:24,
+                            fontSize:10,
                             labelString: 'EXPERIENCE LEVEL'
                         },
                         ticks: {
@@ -94,12 +96,12 @@ class SkillsChart extends React.Component{
                         },
                         scaleLabel:{
                             display:true,
-                            fontSize:24,
+                            fontSize:10,
                             labelString:'NO. OF YEARS'
                         },
                         ticks: {
                             max:5,
-                            fontSize:16,
+                            fontSize:10,
                             beginAtZero:true
                         }   
                     }]
@@ -115,7 +117,7 @@ class SkillsChart extends React.Component{
     render(){
         
         return(
-            <div className='chart hide-on-mobile'>
+            <div className='chart show-on-mobile' style={{height:'400px'}}>
             <Scatter 
                 data={this.state.chartData}
                 options={this.state.chartOptions}
@@ -127,4 +129,4 @@ class SkillsChart extends React.Component{
     }
 }
 
-export default SkillsChart;
+export default SkillsChartMobile;

@@ -6,7 +6,7 @@ class Info extends React.Component{
         return(
             <div className='info-overall-div'>
                 <div className='container'>
-                    <div className='display-flex' style={{minHeight:'300px'}}>
+                    <div className='display-flex remove-flex-on-mobile' style={{minHeight:'300px'}}>
                         <div className='info-image-container'>
                             <div className='info-image justify-content-center'>
                                 <img className='info-img' src={require('../../src/assets/img/me/Me.jpg')} alt='Me fooling around after school at East Coast Park. Good times.'/>

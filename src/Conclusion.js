@@ -18,7 +18,7 @@ class Conclusion extends React.Component{
                     <div className='row'>
                         
                         <div className='col-sm conclusion-div add-margin'>
-                            <h5><i class="far fa-envelope"></i> yu.shijie@dhs.sg</h5>
+                            <h5><i class="far fa-envelope"></i> <a href="mailto:yu.shijie@dhs.sg" style={{color:'white'}}>yu.shijie@dhs.sg</a></h5>
                             <h5><i class="fas fa-phone"></i> +65 90020578</h5>
                             <p className='github-acknowledgement'>Special thanks to Github for hosting this website.</p>
                         </div>

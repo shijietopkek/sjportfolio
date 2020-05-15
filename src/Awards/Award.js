@@ -16,28 +16,24 @@ class Award extends React.Component{
         const placing = this.props.placing;
         if(placing=='1st'){
             this.setState({
-                cardBg: '#FFD700',
-                cardBorder:'#b89400',
+                cardBg: 'linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)',
                 textColor:'#121212'
 
             })
         }else if(placing=='2nd'){
             this.setState({
-                cardBg:'#dbe4eb',
-                cardBorder:'#777777',
+                cardBg:'linear-gradient(-72deg,#dedede,#ffffff 16%,#dedede 21%,#ffffff 24%,#454545 27%,#dedede 36%,#ffffff 45%,#ffffff 60%,#dedede 72%,#ffffff 80%,#dedede 84%,#a1a1a1)',
                 textColor:'#121212'
             })
         }else if(placing=='3rd'){
             this.setState({
-                cardBg:'#a97142',
-                cardBorder:'#8B4513',
-                textColor:'#ffffff'
+                cardBg:'linear-gradient(-72deg,#ca7345,#ffdeca 16%,#ca7345 21%,#ffdeca 24%,#a14521 27%,#ca7345 36%,#ffdeca 45%,#ffdeca 60%,#ca7345 72%,#ffdeca 80%,#ca7345 84%,#732100)',
+                textColor:'#121212'
             })
         }else{
             this.setState({
-                cardBg: '#5888ae',
-                cardBorder:'#1c4966',
-                textColor:'#ffffff'
+                cardBg: 'linear-gradient(-72deg,#dedeff,#ffffff 16%,#dedeff 21%,#ffffff 24%,#555564 27%,#dedeff 36%,#ffffff 45%,#ffffff 60%,#dedeff 72%,#ffffff 80%,#dedeff 84%,#555564)',
+                textColor:'#121212'
             })
         }
 
@@ -45,8 +41,7 @@ class Award extends React.Component{
     render(){
         
         const cardStyle = {
-            backgroundColor:this.state.cardBg,
-            border: '10px solid '+this.state.cardBorder
+            background:this.state.cardBg,
         }
         const textStyle = {
             color:this.state.textColor
@@ -59,7 +54,7 @@ class Award extends React.Component{
             <div>
             <div className='card awardsdiv' style={cardStyle}>
                 <div className='card-body'>
-                    <div className='display-flex awards-div'>
+                    <div className='display-flex awards-div remove-flex-on-mobile'>
                         <div className='text-center container-1' style={textStyle}>
                                 <h1><b>{this.props.placing}</b></h1>
                                 <hr style={hrStyle}/>

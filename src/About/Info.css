@@ -13,22 +13,16 @@
 }
 
 .info-image{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     max-width:420px;
     text-align:center;
     margin:0 auto;
 }
 .info-text-container{
     flex:50%;
-    margin:20px;
 }
 .info-text{
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
     width:100%;
+
 }
 
 .info-img{

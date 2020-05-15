@@ -21,6 +21,11 @@
     background-color:#121212;
     
 }
+
+.project-div{
+    padding-left: 0;
+    padding-right: 0;
+}
 .project-div:hover .hover-background{
     opacity:0.8;
 

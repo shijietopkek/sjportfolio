@@ -30,7 +30,7 @@ class Navbar extends React.Component{
     render(){
         return(
             
-            <nav id='navbar' className={classnames('navbar navbar-expand-md fixed-top', {
+            <nav id='navbar' className={classnames('navbar navbar-expand-md fixed-top hide-on-mobile', {
                 "navbar--hidden": !this.state.visible
               })}>
                 <a class="btn btn-dark home-btn" href='#about'><span class="fas fa-home"></span></a>

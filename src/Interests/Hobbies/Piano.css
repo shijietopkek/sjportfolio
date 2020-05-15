@@ -1,3 +1,7 @@
 .card-piano{
     background-image: linear-gradient(#bbbbbb,#222222);
 }
+#modal-content-piano{
+    background-image: linear-gradient(#bbbbbb,#222222);
+    color:#fff;
+}
