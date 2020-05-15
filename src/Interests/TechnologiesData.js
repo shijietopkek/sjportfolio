@@ -15,7 +15,7 @@ const TechnologiesData=[
         id:3,
         title:'Web Development',
         imgurl:'src/assets/img/webdevelopment.jpeg',
-        description: 'As a computing student, I experienced both Frontend and Backend web development. Recently, I picked up Ruby on Rails, a highly-versatile web-application framework. Web Development triggers my creativity and problem-solving skills and allows me to create applications for the betterment of myself and others.'  
+        description: 'As a computing student, I experienced both front-end and back-end web development. During my free time, I picked up Ruby on Rails, a highly-versatile web-application framework. Web Development triggers my creativity and problem-solving skills and allows me to create applications for the betterment of myself and others.'  
     },
     {
         id:4,

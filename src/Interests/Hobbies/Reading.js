@@ -44,9 +44,9 @@ class Reading extends React.Component{
 
                     <h3>Reading</h3>
                     <hr/>
-                    <p>Reading has been a hobby of mine for as long as I could remember. Books stimulate imagination, expand horizon, and transport readers into surreal and other-worldly realms, all at little to no cost.</p>
-                    <p>I have a predisposition for classic science fiction novels, notably those written by H. G. Wells. His futuristic ideas, contrasted with his living in an era before the Scientific Revolution, render his capacity of imagination especially impressive and intriguing. Moreover, his works are not merely entertaining at face value- there is often a deeper political or philosophical nuance left for readers to unearth.</p>
-                    <p>In recent years, I started mulling over philosophical texts. Through this difficult endeavour I have acquired a greater understanding of myself and my surroundings at large. John Locke, in particular, fascinates me. His liberal ideas and renegade nature against authority renders him an enigmatic philosopher who is far ahead of his time. I recommend everyone to check out John Locke, in particular his Two Treatises of Government.</p>
+                    <p>Reading has been a hobby of mine for as long as I could remember. Books stimulate imagination, expand horizon, and transport readers into surreal worlds and realms, all at little to no cost.</p>
+                    <p>I have a predisposition for classic science fiction novels, notably those written by H. G. Wells. His futuristic ideas, contrasted with his living in an era before the Scientific Revolution, render his capacity of imagination especially impressive and intriguing. Moreover, his works are not merely entertaining at face value— there is often a deeper political or philosophical nuance left for readers to unearth.</p>
+                    <p>I also like to read philosophy, through which I have acquired a greater understanding of myself and my surroundings at large. John Locke, in particular, fascinates me. His liberal ideas and renegade nature against authority renders him an enigmatic philosopher who is far ahead of his time. I recommend everyone to check out John Locke, in particular his Two Treatises of Government.</p>
                     <button className='show-on-mobile btn btn-outline-light'data-toggle='modal' data-target={`#modalToggle_reading`}>Notable Reads</button>
                 
                 <div className='modal fade' id={`modalToggle_reading`} tabindex='-1' role='dialog' aria-labelledby='#modalTitle' aria-hidden='true'>
@@ -54,7 +54,7 @@ class Reading extends React.Component{
                         <div className='modal-content' id='modal-content-reading'>
                 
                             <div className='modal-body text-center'>
-                            <h3>10 Notable Pieces from my Repertoire</h3>
+                            <h3>10 Notable Novels/Writings I've Read</h3>
                     <hr/>
                     <ul style={{textAlign: 'left',paddingLeft: '30px'}}>
 

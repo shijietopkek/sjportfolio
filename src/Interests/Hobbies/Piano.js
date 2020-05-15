@@ -40,15 +40,15 @@ class Piano extends React.Component{
                     <h3>Piano</h3>
                     <hr/>
                     <p>I picked up piano when I was 15. Within 3 years, I was able to attain Grade 6 for both Practical and Music Theory. My grade progression came to an abrupt halt due to A-Levels and NS commitments, but my love for the instrument never ceased.</p>
-                    <p>Piano has enriched my life beyond all measurable thresholds. For me, the sound of notes stringed together in a complex harmony paints a picture of sublime beauty that no pop music can achieve. Every note, every measure, every form of articulation, I indulge in to my heart's content.</p>
+                    <p>Piano has enriched my life beyond all measurable thresholds. For me, the sound of notes stringed together in a complex harmony a degree of sublime beauty that no pop music can compare. Every note, every measure, every form of articulation, I indulge in to my heart's content.</p>
                     
                     <div className='hide-on-mobile'>
-                    <p>Below is a video of Rachmaninoff Piano Concerto. No. 2, played by the maestro himself. It is arguably one of the best, if not the best piano concerto ever written. I suggest every one to give it a listen, especially the first movement.</p>
+                    <p>Below is a video of Rachmaninoff Piano Concerto. No. 2, performed by the maestro himself. It is arguably one of the best, if not the best piano concerto ever written. I suggest every one to give it a listen.</p>
                     <div className='text-center'>
                     <iframe width="420" height="250" src="https://www.youtube.com/embed/pBx-tr1FDvY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                     </div>
-                    <p>Piano serves as a companion offering me spiritual respite from the everyday humdrum of life, without which my life would be much devoid of color.</p>
+                    <p>Piano serves as a life-long companion, offering me spiritual respite from the humdrum of everyday life, without which my life would be much devoid of color.</p>
                     <button className='show-on-mobile btn btn-outline-light'data-toggle='modal' data-target={`#modalToggle_piano`}>My Repertoire</button>
                 
                 <div className='modal fade' id={`modalToggle_piano`} tabindex='-1' role='dialog' aria-labelledby='#modalTitle' aria-hidden='true'>

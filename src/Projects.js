@@ -31,7 +31,7 @@ class Projects extends React.Component{
                                 <h3>Opus</h3>
                                 <hr/>
                                 <p>Opus is a web application built on Rails where users can read, post and comment on each other's essays.</p>
-                                <p className='hide-on-mobile'>The core tenet of Opus is to foster creativity and encourage users (especially students) to practice their writing skills.</p>
+                                <p className='hide-on-mobile'>The core tenet of Opus is to foster creativity and encourage users (especially students) to hone their writing skills.</p>
                                 <a target='_blank' href='https://opusweb.herokuapp.com/' className='btn btn-outline-light btn-lg'>Link to Website</a>
                             </div>
                         </div>
@@ -43,7 +43,7 @@ class Projects extends React.Component{
                             <div className='add-margin'>
                                 <h3>PomodoroTimer</h3>
                                 <hr/>
-                                <p>PomodoroTimer is an Android application built in React Native. It utilises the Pomodoro technique to boost productivity and includes background music playback option.</p>
+                                <p>PomodoroTimer is an Android application built in React Native. It utilises the Pomodoro technique to boost productivity and includes a background music playback option.</p>
                                 <p className='hide-on-mobile'>The impetus behind the development of the app is to cater to my own needs and practice my React Native skills in the process.</p>
                                 <a target='_blank' href='https://drive.google.com/open?id=1_ReJ6brfCwT5u61Quzg76aTBNh6prdO3' className='btn btn-outline-light btn-lg'>Link to APK</a>
                             </div>

@@ -29,7 +29,7 @@ class Navbar extends React.Component{
       };
     render(){
         return(
-            
+            <div>
             <nav id='navbar' className={classnames('navbar navbar-expand-md fixed-top hide-on-mobile', {
                 "navbar--hidden": !this.state.visible
               })}>
@@ -46,6 +46,21 @@ class Navbar extends React.Component{
                     </ul>
                 </div>
             </nav>
+            <nav id='navbar' className={classnames('navbar navbar-expand-md fixed-top show-on-mobile', {
+                "navbar--hidden": !this.state.visible
+              })}>
+              
+                    <ul class='navbar-nav mr-auto'>
+                    <li class='nav-item-mobile' ><a href='#about'  class='btn btn-dark nav-btn-mobile'><span class="fas fa-home"></span></a></li>
+                        <li class='nav-item-mobile' ><a href='#interests' class='btn btn-dark nav-btn-mobile'><span class="fas fa-binoculars"></span></a></li>
+                        <li class='nav-item-mobile' ><a href='#awards' class='btn btn-dark nav-btn-mobile'><span class="fas fa-trophy"></span></a></li>
+                        <li class='nav-item-mobile' ><a href='#projects' class='btn btn-dark nav-btn-mobile'><span class="fas fa-flask"></span></a></li>
+                        <li class='nav-item-mobile' ><a href='#websites'  class='btn btn-dark nav-btn-mobile'><span class="fas fa-share-alt"></span></a></li>
+                        
+                    </ul>
+
+            </nav>
+            </div>
   
     
  )

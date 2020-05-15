@@ -11,8 +11,18 @@
     font-size:1.5em;
 }
 
-.home-btn{
+.nav-item-mobile{
+    width:20%;
+    text-align:center;
+}
+
+.nav-item-mobile > a{
     color:#fff;
+    font-size:1.5em;
+}
+
+.home-btn{
+    color:#dddddd;
     font-size:1.5em;
 }
 
@@ -26,4 +36,12 @@
     border: 0;
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+.nav-btn-mobile{
+    width:56px;
+    height:56px;
+    border: 2px solid #dddddd;
+    border-radius:50%;
+    padding: 0.5rem 0rem;
 }

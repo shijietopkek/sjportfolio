@@ -16,7 +16,7 @@ class Award extends React.Component{
         const placing = this.props.placing;
         if(placing=='1st'){
             this.setState({
-                cardBg: 'linear-gradient(to right, #BF953F, #FCF6BA, #B38728, #FBF5B7, #AA771C)',
+                cardBg: 'linear-gradient(-72deg,#ffde45,#ffffff 16%,#ffde45 21%,#ffffff 24%,#452100 27%,#ffde45 36%,#ffffff 45%,#ffffff 60%,#ffde45 72%,#ffffff 80%,#ffde45 84%,#452100)',
                 textColor:'#121212'
 
             })

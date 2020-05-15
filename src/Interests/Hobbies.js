@@ -11,7 +11,7 @@ class Hobbies extends React.Component{
                 <div class='container'>
                     <div class='text-center'>
                     <h1>General Interests and Hobbies</h1>
-                    <h5 className='hide-on-mobile'>I have a diverse range of interests and hobbies which I cultivated over the years. It is my firm belief that the key to a good life is vibrancy and color.</h5>
+                    <h5 className='hide-on-mobile'>I have a diverse range of interests and hobbies. It is my firm belief that the key to a good life is vibrancy and color.</h5>
                     <br/>
                     </div>
                     <Piano/>

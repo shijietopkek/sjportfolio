@@ -18,7 +18,8 @@ class Info extends React.Component{
                                 <h1>About me</h1>
                                 <br/>
                                 <p>I was a former computing student from Dunman high school.</p>
-                                <p>Having graduated in 2017, I intend to pursue Business Analytics for my undergraduate studies. My passion in business analytics stemmed from a data analytics competition I took part in the past. Since then, I began developing my data-science portfolio, picking up new skills such as Excel, R and Python Data Science libraries while sharpening my existing Tableau skills.</p>
+                                <p>Having graduated in 2017, I intend to pursue Business Analytics for my undergraduate studies.</p>
+                                <p>My passion in business analytics stemmed from a data analytics competition in the past. Since then, I began developing my data-science portfolio, picking up new skills such as Excel, R and Python Data Science libraries while sharpening my existing Tableau skills.</p>
                                 <p>My hobbies include playing the piano, cycling and reading. Through these hobbies I have both grown as a person and learnt to appreciate what life has to offer.</p>
 
 
