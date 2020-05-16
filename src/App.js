@@ -14,26 +14,28 @@ class App extends React.Component{
     return (
       <div>
         <Navbar/> 
-        <div id='about'>
+        <div id='about' class="grabbable">
         <About/>
         </div>
         
-        <div id='interests'>
+        <div id='interests' class="grabbable">
         <Interests/>
         </div>
 
-        <div id='awards'>
+        <div id='awards' class="grabbable">
         <Awards/>
         </div>
 
-        <div id='projects'>
+        <div id='projects' class="grabbable">
         <Projects/>
         </div>
-        <div id='websites'>
+        <div id='websites' class="grabbable">
         <Websites/>
         </div>
-        
+        <div class="grabbable">
         <Conclusion/>
+        </div>
+        
       
       
        
