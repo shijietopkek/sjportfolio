@@ -9,6 +9,9 @@
 .nav-item > a{
     color:#fff;
     font-size:1.5em;
+    border:3px solid #fff;
+    border-radius: 99rem;
+
 }
 
 .nav-item-mobile{
@@ -19,11 +22,14 @@
 .nav-item-mobile > a{
     color:#fff;
     font-size:1.5em;
+    
 }
 
 .home-btn{
     color:#dddddd;
     font-size:1.5em;
+    border:3px solid #fff;
+    border-radius:99rem;
 }
 
 .navbar{    
