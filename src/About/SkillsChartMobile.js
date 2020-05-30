@@ -77,12 +77,14 @@ class SkillsChartMobile extends React.Component{
                 scales: {
                     xAxes: [{
                         gridLines: {
-                            display:true
+                            display:true,
+                            color:'#dddddd'
                         },
                         scaleLabel: {
                             display: true,
-                            fontSize:10,
-                            labelString: 'EXPERIENCE LEVEL'
+                            fontSize:24,
+                            labelString: 'EXPERIENCE LEVEL',
+                            fontColor:'white'
                         },
                         ticks: {
                             max:1.1,
@@ -92,17 +94,21 @@ class SkillsChartMobile extends React.Component{
                     }],
                     yAxes: [{
                         gridLines: {
-                            display:true
+                        
+                            display:true,
+                            color:'#dddddd'
                         },
                         scaleLabel:{
                             display:true,
-                            fontSize:10,
-                            labelString:'NO. OF YEARS'
+                            fontSize:24,
+                            labelString:'NO. OF YEARS',
+                            fontColor:'white'
                         },
                         ticks: {
                             max:5,
-                            fontSize:10,
-                            beginAtZero:true
+                            fontSize:16,
+                            beginAtZero:true,
+                            fontColor:'white'
                         }   
                     }]
                 },

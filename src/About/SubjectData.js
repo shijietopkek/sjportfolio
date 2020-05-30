@@ -10,7 +10,7 @@ const SubjectData=[{
     grade:'A',
     bgcolor:'rgba(244, 67, 54, 0.7)'
 },
-{
+{ 
     id:3,
     title:'Computing',
     grade:'A',

@@ -2,5 +2,8 @@
     padding-top:50px;
     padding-bottom:50px;
     color:#ffffff;
-    background-color:#aaaaaa;
+    background-color:#121212;
+    background-image: url('https://i.imgur.com/fZGonj5.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }

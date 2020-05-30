@@ -49,6 +49,19 @@ class Projects extends React.Component{
                             </div>
                         </div>
                     </div>
+                    <div className='project-div col-md-6'>
+                        <img className='project-img' src='https://i.imgur.com/PWzz5qB.jpg' alt='Covid19TrendsnData'/>
+                        <div className='hover-background'></div>
+                        <div className='project-description'>
+                            <div className='add-margin'>
+                                <h3>PomodoroTimer</h3>
+                                <hr/>
+                                <p>Covid19TrendsnData is a multi-faceted web application showcasing data visualisations related to the pandemic.</p>
+                                <p className='hide-on-mobile'>Besides providing a dashboard for users to view Covid-19 trends and insights, the website also provides a platform for users to share their own visualisations or those from other sources.</p>
+                                <a target='_blank' href='https://covid19trendsndata.herokuapp.com' className='btn btn-outline-light btn-lg'>Link to Website</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 </div>
             </div>
