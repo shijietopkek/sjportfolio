@@ -54,7 +54,7 @@ class Projects extends React.Component{
                         <div className='hover-background'></div>
                         <div className='project-description'>
                             <div className='add-margin'>
-                                <h3>PomodoroTimer</h3>
+                                <h3>Covid19TrendsnData</h3>
                                 <hr/>
                                 <p>Covid19TrendsnData is a multi-faceted web application showcasing data visualisations related to the pandemic.</p>
                                 <p className='hide-on-mobile'>Besides providing a dashboard for users to view Covid-19 trends and insights, the website also provides a platform for users to share their own visualisations or those from other sources.</p>
